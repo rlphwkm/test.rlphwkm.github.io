@@ -145,30 +145,66 @@ p {
 }
 /* Global Style End */
 
-/* Preloader End */
+/* Preloader Start */
 .preloader {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: var(--default_color);
+    background-color: black; /* Black background for Wii-like style */
+    color: white; /* White text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    font-family: 'Continuum', sans-serif; /* or use Wii-like font if available */
     z-index: 9999;
-    transition: opacity 0.5s ease;
     opacity: 1;
+    transition: opacity 0.5s ease;
 }
+
 .preloader.hide {
     opacity: 0;
     pointer-events: none;
 }
-.preloader img {
-    max-width: 200px;
-    max-height: 50px;
+
+.preloader-content {
+    max-width: 90%; /* To avoid touching edges on small screens */
+}
+
+.preloader-content h1 {
+    font-size: 5rem;
+    margin-bottom: 20px;
+}
+
+.preloader-content p {
+    font-size: 2.4rem;
+    margin: 8px 0;
+}
+
+.warning-icon {
+    color: #FFCC00;
+    margin-right: 10px;
+}
+
+.preloader-content a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+@media (max-width: 600px) {
+    .preloader-content h1 {
+        font-size: 3rem;
+    }
+    .preloader-content p {
+        font-size: 1.6rem;
+    }
 }
 /* Preloader End */
+
 
 /* Navbar Start */
 .navbar-brand {
@@ -301,8 +337,8 @@ body .d2c_mobile_view {
     background-repeat: no-repeat;
     background-size: cover;
 }
-.d2c_services_wrapper {
-    background: url(../images/services_bg.jpg);
+.d2c_experience_wrapper {
+    background: url(../images/experience_bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -384,7 +420,7 @@ h1 span {
 }
 /* About Section End */
 
-/* Service Section Start */
+/* Experience Section Start */
 .d2c_card {
     padding: 1px 1px 0px 1px;
     background: linear-gradient(180deg, rgba(94,106,210,0.5) 0%, rgba(19,23,34,0) 90%);
@@ -414,7 +450,7 @@ h1 span {
     background: linear-gradient(180deg, rgba(32,35,55,1) 0%, rgba(57,59,96,1) 100%);
     margin: 0 auto 30px;
 }
-.d2c_service_icon {
+.d2c_experience_icon {
     width: 74px;
     height: 74px;
     font-size: 30px;
@@ -428,7 +464,7 @@ h1 span {
 .d2c_card h6 {
     margin-bottom: 10px;
 }
-/* Service Section End */
+/* Experience Section End */
 
 /* Counter Section Start */
 .d2c_border_bg {

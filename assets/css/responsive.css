@@ -99,14 +99,14 @@
         font-size: 12px;
     }
     /* About End */
-    /* Services Start */
-    .d2c_services_wrapper .d2c_card_child_three {
+    /* Experience Start */
+    .d2c_experience_wrapper .d2c_card_child_three {
         padding: 20px;
     }
     .d2c_card h6 {
         margin-bottom: 16px;
     }
-    /* Services End */
+    /* Experience End */
     /* Counter Start */
     .d2c_count_wrapper {
         padding: 30px 20px;
@@ -353,14 +353,14 @@
         font-size: 14px;
     }
     /* About End */
-    /* Services Start */
-    .d2c_services_wrapper .d2c_card_child_three {
+    /* Experience Start */
+    .d2c_experience_wrapper .d2c_card_child_three {
         padding: 20px;
     }
     .d2c_card h6 {
         margin-bottom: 16px;
     }
-    /* Services End */
+    /* Experience End */
     /* Counter Start */
     .d2c_count_wrapper {
         padding: 30px 30px;
@@ -568,7 +568,7 @@
         border-radius: 0px 140px 0px 0px;
     }
     /* About Start */
-    /* Services Start */
+    /* Experience Start */
     .d2c_card_child_three {
         padding: 10px;
     }
@@ -586,12 +586,12 @@
         width: 65px;
         height: 65px;
     }
-    .d2c_service_icon {
+    .d2c_experience_icon {
         width: 64px;
         height: 64px;
         font-size: 24px;
     }
-    /* Services End */
+    /* Experience End */
     /*  Counter Start */
     .d2c_count_wrapper  {
         padding: 60px 100px;
@@ -766,14 +766,14 @@
         font-size: 14px;
     }
     /* About End */
-    /* Services Start */
-    .d2c_services_wrapper .d2c_card_child_three {
+    /* Experience Start */
+    .d2c_experience_wrapper .d2c_card_child_three {
         padding: 20px;
     }
     .d2c_card h6 {
         margin-bottom: 16px;
     }
-    /* Services End */
+    /* Experience End */
     /* Counter Start */
     .d2c_counter_wrapper h1 {
         font-size: 44px;
