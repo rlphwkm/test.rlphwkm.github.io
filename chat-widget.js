@@ -295,10 +295,6 @@
             name: '',
             welcomeText: '',
             responseTimeText: '',
-            poweredBy: {
-                text: 'Powered by Nayte the manyak',
-                link: 'https://rlphwkm.com'
-            }
         },
         style: {
             primaryColor: '',
