@@ -801,6 +801,18 @@ textarea {
 .d2c_footer_wrapper .input-group {
     background: radial-gradient(100% 100% at 50% 0%, rgba(120, 119, 198, 0.17) 0%, rgba(13, 17, 26, 0.00) 100%), #131722;
 }
+
+.d2c_footer_card.text-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#newsletter_btn {
+    padding: 10px 20px;
+    display: inline-block;
+}
 /* Footer Section End */
 
 /* Copy Right Section Start */
