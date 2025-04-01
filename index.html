@@ -34,19 +34,57 @@
 <body>
 
 <!-- Preloader Start -->
-    <div class="preloader">
-        <div class="preloader-content">
-            <h1><i class="fas fa-exclamation-triangle warning-icon"></i>DISCLAIMER</h1>
-            <br><br>
-            <p>BEFORE PROCEEDING, READ YOUR OPERATIONS</p>
-            <p>MANUAL FOR IMPORTANT INFORMATION</p>
-            <p>ABOUT THIS SOFTWARE.</p>
-            <br><br>
-            <p>Available online at <a href="https://github.com/rlphwkm/rlphwkm.github.io/blob/main/README.md" target="_blank">rlphwkm.com</a></p>
-            <br><br>
-            <p>Please wait, loading content...</p>
+<div class="preloader">
+    <div class="preloader-content">
+        <h1><i class="fas fa-exclamation-triangle warning-icon"></i> DISCLAIMER</h1>
+        <br><br>
+        <p>BEFORE PROCEEDING, PLEASE READ THE OPERATIONS</p>
+        <p>MANUAL FOR IMPORTANT INFORMATION</p>
+        <p>ABOUT THIS SOFTWARE.</p>
+        <br><br>
+        <p>Available online at <a href="https://github.com/rlphwkm/rlphwkm.github.io/blob/main/README.md" target="_blank">rlphwkm.com</a></p>
+        <br><br>
+        <p>Please wait, loading content...</p>
+
+        <!-- Loading Spinner -->
+        <div style="
+            margin: 30px auto 0;
+            width: 40px;
+            height: 40px;
+            border: 4px solid rgba(255,255,255,0.2);
+            border-top: 4px solid white;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;">
         </div>
+        <!-- End Loading Spinner -->
+
     </div>
+</div>
+
+<style>
+    @keyframes spin {
+        to { transform: rotate(360deg); }
+    }
+
+    .preloader {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: #000; /* Adjust as needed */
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 9999;
+        text-align: center;
+    }
+
+    .preloader-content a {
+        color: #4eaaff;
+    }
+</style>
 <!-- Preloader End -->
 
 
@@ -130,11 +168,7 @@
             </div>
         </section>
         <!-- Hero Section End -->
-        <div style="
-        width: 100%;
-        height: 1px;
-        background: #2c1e65">
-        </div>
+
         <!-- About Section Start -->
         <section class="d2c_about_wrapper" id="about">
             <div class="container">
@@ -168,11 +202,7 @@
             </div>
         </section>
         <!-- About Section End -->
-        <div style="
-        width: 100%;
-        height: 1px;
-        background: #2c1e65">
-        </div>
+
         <!-- Experience Section Start -->
         <section class="d2c_experience_wrapper" id="experience">
             <div class="container">
@@ -238,11 +268,7 @@
             </div>
         </section>
         <!-- Experience Section End -->
-        <div style="
-        width: 100%;
-        height: 1px;
-        background: #2c1e65">
-        </div>
+
         <div class="d2c_counter_choose_bg">
             <!-- Counter Section Start -->
             <section class="d2c_counter_wrapper">
@@ -272,7 +298,6 @@
                 </div>
             </section>
             <!-- Counter Section End -->
-
 <!-- Partner Section Start -->
 <section class="d2c_partner_wrapper">
     <div class="container">
@@ -409,11 +434,7 @@
             </section>
             <!-- Why Choose Me Section End -->
         </div>
-        <div style="
-        width: 100%;
-        height: 1px;
-        background: #2c1e65">
-        </div>
+
         <div class="d2c_cta_project_bg">
             <!-- Call To Ation Section Start -->
             <section class="d2c_c2a_wrapper">
@@ -619,12 +640,7 @@
             </section>
             <!-- Project Section End -->
         </div>
-    </div>
-    <div style="
-    width: 100%;
-    height: 1px;
-    background: #2c1e65">
-    </div>
+
         <div class="d2c_partner_testimonial_bg">
 
             <!-- Testimonial Section Start -->
@@ -650,6 +666,7 @@
                 </div>
             </section>
             <!-- Testimonial Section End -->
+        </div>
 
         <!-- Footer Section Start -->
         <footer class="d2c_footer_wrapper">
@@ -691,7 +708,7 @@
                     <div class="col-md-12 col-lg-4 mt-4 mt-lg-0 wow fadeInRight">
                         <div class="d2c_footer_card text-center">
                             <h3>Get in touch</h3>
-                            <p>Please see in the footer all necessary social media information.</p>
+                            <p>Please see in the footer for social media information.</p>
                             <a href="mailto:ralph@rlphwkm.com" class="btn" id="newsletter_btn">E-Mail Me!</a>
                         </div>
                     </div>
@@ -699,8 +716,6 @@
             </div>
         </footer>
         <!-- Footer Section End -->
-
-
         <!-- Copy Right Section Start -->
         <div class="d2c_copy_right_wrapper">
             <div class="container">
